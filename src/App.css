@@ -1,0 +1,57 @@
+/* Default Light Mode */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode li {
+  border-color: #444444;
+}
+
+.dark-mode .toggle-button {
+  background-color: #ff9800;
+}
+
+.dark-mode .toggle-button:hover {
+  background-color: #e68900;
+}
